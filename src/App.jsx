@@ -7,7 +7,9 @@ function App() {
   
 
   return (
-    <div className="bg-white text-gray-900 font-sans">
+    <body class=" bg-white text-gray-900 font-sans">
+      <div class="container mx-auto px-4 py-8">
+      <div class="bg-gray-100 mt-4 mb-4 rounded-4xl border-0 shadow">
   <div class="max-w-3xl mx-auto px-6 py-12">
     <div class="flex items-center gap-6">
       <img src={user} alt="user" class="w-20 h-20 rounded-full border object-cover" />
@@ -295,7 +297,9 @@ Designing for accessibility<svg xmlns="http://www.w3.org/2000/svg" width="20" he
        </div>
     </section>
     </div>
-   </div>
+  </div>
+  </div>
+   </body>
   )
 }
 
